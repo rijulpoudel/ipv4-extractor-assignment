@@ -20,5 +20,3 @@ python3 test_cli.py ./ipv4
 ```
 
 `test_ipv4.cpp` covers boundaries, malformed octets/ports, adjacent punctuation, garbage delimiters, and output reset on failure. `test_cli.py` checks exact console formatting and the case-sensitive `END` loop. The test-only compile flag excludes `main` from `ipv4.cpp` so the required function can be tested directly.
-
-See [AI_DISCLOSURE.md](AI_DISCLOSURE.md) for the exact assignment prompt, authorship, test record, and review checklist.
